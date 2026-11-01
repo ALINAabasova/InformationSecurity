@@ -1,0 +1,41 @@
+===== Create a new user =====
+Adding user `user1' ...
+Adding new group `user1' (1004) ...
+Adding new user `user1' (1002) with group `user1' ...
+Creating home directory `/home/user1' ...
+Copying files from `/etc/skel' ...
+user1:x:1002:1004:,,,:/home/user1:/bin/bash
+
+===== Login as new user =====
+user1
+
+===== Change personal info (chfn) =====
+user1:x:1002:1004:User One,,,:/home/user1:/bin/bash
+
+===== Delete the user =====
+Looking for files to backup/remove ...
+Removing files ...
+Removing user `user1' ...
+Warning: group `user1' has no more members.
+Done.
+user2:x:1001:1003:,,,:/home/user2:/bin/bash
+
+===== Task: groups =====
+--- existing groups ---
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,huinablude
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+huinablude adm dialout cdrom floppy sudo audio dip video plugdev netdev docker
+--- create group and user, add to group ---
+groupadd: group 'devteam' already exists
+adduser: The user `user2' already exists.
+user2 : user2 devteam
+uid=1001(user2) gid=1003(user2) groups=1003(user2),1002(devteam)
+devteam:x:1002:user2

@@ -1,0 +1,16 @@
+===== vim version =====
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Aug 24 2026 22:13:24)
+
+===== create file and add text =====
+some text
+more text
+even more text
+
+===== edit through vim: delete line 2 (dd) via :2d, then :wq =====
+some text
+even more text
+
+===== edit through vim: delete all content (:%d), then write sample text and :wq =====
+some text
+more text
+even more text

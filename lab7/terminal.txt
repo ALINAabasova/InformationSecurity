@@ -1,0 +1,10 @@
+===== run the script once manually =====
+Report written: [2026-11-01 18:46:02] user=huinablude disk_free=235GB
+
+===== install cron job (every minute) =====
+Installed. Current crontab:
+* * * * * /usr/bin/python3 /mnt/d/Desktop/infosec/InformationSecutriy/lab7/report.py
+
+===== wait ~70s for cron to fire, then show the log =====
+[2026-11-01 18:46:02] user=huinablude disk_free=235GB
+[2026-11-01 18:47:01] user=huinablude disk_free=235GB

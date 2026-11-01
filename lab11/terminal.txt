@@ -1,0 +1,35 @@
+===== build from source (make) =====
+gcc -c -g -O2 -Wall -Wno-unused-value -DTLF_FONTS -DDEFAULTFONTDIR=\"/usr/local/share/figlet\" \
+	-DDEFAULTFONTFILE=\"standard\" -o figlet.o figlet.c
+gcc -c -g -O2 -Wall -Wno-unused-value -DTLF_FONTS -DDEFAULTFONTDIR=\"/usr/local/share/figlet\" \
+	-DDEFAULTFONTFILE=\"standard\" -o zipio.o zipio.c
+gcc -c -g -O2 -Wall -Wno-unused-value -DTLF_FONTS -DDEFAULTFONTDIR=\"/usr/local/share/figlet\" \
+	-DDEFAULTFONTFILE=\"standard\" -o crc.o crc.c
+gcc -c -g -O2 -Wall -Wno-unused-value -DTLF_FONTS -DDEFAULTFONTDIR=\"/usr/local/share/figlet\" \
+	-DDEFAULTFONTFILE=\"standard\" -o inflate.o inflate.c
+gcc -c -g -O2 -Wall -Wno-unused-value -DTLF_FONTS -DDEFAULTFONTDIR=\"/usr/local/share/figlet\" \
+	-DDEFAULTFONTFILE=\"standard\" -o utf8.o utf8.c
+gcc  -o figlet figlet.o zipio.o crc.o inflate.o utf8.o
+gcc -c -g -O2 -Wall -Wno-unused-value -DTLF_FONTS -DDEFAULTFONTDIR=\"/usr/local/share/figlet\" \
+	-DDEFAULTFONTFILE=\"standard\" -o chkfont.o chkfont.c
+gcc  -o chkfont chkfont.o
+
+===== install (sudo make install) =====
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/man/man6
+mkdir -p /usr/local/share/figlet
+cp figlet chkfont figlist showfigfonts /usr/local/bin
+cp figlet.6 chkfont.6 figlist.6 showfigfonts.6 /usr/local/man/man6
+cp fonts/*.flf /usr/local/share/figlet
+cp fonts/*.flc /usr/local/share/figlet
+
+===== verify installation =====
+/usr/local/bin/figlet
+
+===== run the installed utility =====
+ _          _       _ _    ___  _  __
+| |    __ _| |__   / / |  / _ \| |/ /
+| |   / _` | '_ \  | | | | | | | ' / 
+| |__| (_| | |_) | | | | | |_| | . \ 
+|_____\__,_|_.__/  |_|_|  \___/|_|\_\
+                                     

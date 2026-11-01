@@ -1,0 +1,24 @@
+===== Create a file and view permissions =====
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+
+===== Change permissions (numeric 754) =====
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+
+===== Symbolic notation (u=rwx,g=rx,o=r) =====
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+
+===== Task: change owner and group =====
+-- before --
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+-- change owner (chown) --
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+-- change group (chgrp) --
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+-- change owner and group together --
+-rwxrwxrwx 1 huinablude huinablude 0 Nov  1 18:41 file.txt
+
+===== How ownership affects access =====
+-rwxrwxrwx 1 huinablude huinablude 15 Nov  1 18:41 file.txt
+-- normal user (huinablude) tries to READ a root-owned 600 file --
+secret content
+-- same user tries to WRITE to it --

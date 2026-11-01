@@ -1,0 +1,11 @@
+===== nginx config test =====
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+===== reload nginx =====
+
+===== direct call to backend API (port 5000) =====
+{"message": "Hello from my API", "path": "/hello"}
+
+===== call through nginx proxy_pass (port 8000) =====
+{"message": "Hello from my API", "path": "/hello"}

