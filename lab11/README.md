@@ -17,6 +17,6 @@ The build finished without errors. `make install` copied the binaries to `/usr/l
 
 Screenshot of the installation and the result:
 
-![Installation](./Screenshot 2026-11-01 205149.png)
+![Installation](./deleted_files.png)
 
 The full terminal output is in [terminal.txt](./terminal.txt).
