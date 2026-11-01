@@ -11,15 +11,15 @@ This repository contains completed laboratory works for the Information Security
 
 | Lab | Topic |
 |-----|-------|
-| [lab1](./lab1) | UNIX commands |
-| [lab2](./lab2) | User management in Linux |
-| [lab3](./lab3) | Permissions in Linux |
-| [lab4](./lab4) | Nginx configuration |
-| [lab5](./lab5) | Vim editor |
-| [lab6](./lab6) | Crontab |
-| [lab7](./lab7) | Package management |
-| [lab8](./lab8) | Installing packages from source |
-| [lab9](./lab9) | Cyber threats |
+| [lab1](./lab01) | UNIX commands |
+| [lab2](./lab02) | User management in Linux |
+| [lab3](./lab03) | Permissions in Linux |
+| [lab4](./lab04) | Nginx configuration |
+| [lab5](./lab05) | Vim editor |
+| [lab6](./lab06) | Crontab |
+| [lab7](./lab07) | Package management |
+| [lab8](./lab08) | Installing packages from source |
+| [lab9](./lab09) | Cyber threats |
 | [lab10](./lab10) | Caesar cipher |
 | [lab11](./lab11) | Network connections |
 | [lab12](./lab12) | Password management |
