@@ -32,3 +32,10 @@ build/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+lab11/figlet/*.o
+lab11/figlet/chkfont
+lab11/figlet/figlet
+lab11/figlet/figlist
+lab11/figlet/figmagic
+lab11/figlet/showfigfonts
